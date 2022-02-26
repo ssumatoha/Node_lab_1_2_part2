@@ -3,7 +3,12 @@
 ## Содержание
 ```
 .
-└── parser
-    ├── address-parser.js
-    └── package.json
+├── dependency
+│   ├── index.js
+│   └── package.json
+├── parser
+│   ├── address-parser.js
+│   └── package.json
+└── README.md
+
 ```
