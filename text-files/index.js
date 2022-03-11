@@ -6,15 +6,14 @@ async function findSalesFiles(folderName) {
 
   async function findFiles(folderName) {
     // чтение всех элементов в текущей папке
-    const items = await fs.readdirSync(folderName, { withFileTypes: true });
+    // *ЗАПОЛНИТЬ*
 
     // перебор каждого найденного элемента
     for (item of items) {
       // если элемент является каталогом, в нем нужно будет искать файлы
-      if (item.isDirectory()) {
+      // *ЗАПОЛНИТЬ*
         // рекурсивно искать в этом каталоге файлы
-        await findFiles(`${folderName}/${item.name}`);
-      } else {
+        // *ЗАПОЛНИТЬ*
         // Убедитесь, что обнаруженный файл является файлом sales.json
         if (item.name === "sales.json") {
           // сохранить путь к файлу в массиве salesFiles
