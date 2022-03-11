@@ -1,4 +1,4 @@
-const fs = require("fs");
+const fs = require("fs").promises;
 
 async function findSalesFiles(folderName) {
   // массив будет содержать файлы продаж по мере их обнаружения 
